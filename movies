@@ -1,0 +1,29 @@
+ sudo yum update
+    git -v
+    mvn -v
+    mvn -version
+    java -v
+    jenkins -v
+    mkdir instagram
+  113  ls
+  114  ls -a
+  115  cat instagram
+  116  cd instagram/
+  117  yum install git
+  118  git branch
+  119  git init
+  120  ll -a
+  121  touch movies
+  122  git add movies
+  123  git commit -m "v-1" movies
+  124  git status
+  125  git log
+  126  git add movies
+  127  git status
+  128  git commit -m "v-1" movies
+  129  git remove --rm
+  130  git clone https://github.com/A-nil23/devops.git
+  131  git remote add origin https://github.com/A-nil23/devops.git
+  132  git push -u origin master
+  133  git pull
+  134  git push -u origin master
