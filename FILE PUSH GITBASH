@@ -1,0 +1,15 @@
+ cat etc/ os-release
+    2  cat etc/os-release
+    3  yum install git
+    4  cat etc/os-release
+    5  git init
+    6  git branch
+    7  git clone https://github.com/A-nil23/devops.git
+    8  git remote add origin https://github.com/A-nil23/devops.git
+    9  ll
+   10  cat jenkins.sh
+   11  ls -a
+   12  git push origin nn.txt
+   13  cd devops
+   14  ls -a
+   15  cat nn.txt
