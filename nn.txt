@@ -1,0 +1,101 @@
+ 1  sudo yum update -y
+    2  sudo apt update
+    3  sudo apt install git -y
+    4  git --version
+    5  sudo apt install maven -y
+    
+    history
+   [ec2-user@ip-172-31-32-20 /]$ history
+    1  sudo -i
+    2  sudo yum update
+    3  cat>gopi
+    4  cat gopi
+    5  chmod 777 gopi
+    6  ls
+    7  apt install git
+    8  yum install git -y
+    9  git -y
+   10  git -version
+   11  sudo yum istall -git -y
+   12  git --version
+   13  git add gopi
+   14  git status
+   15  git init
+   16  git branch
+   17  git clone https://github.com/A-nil23/kumar.git
+   18  git commit -m "hello"
+   19  git add gopi
+   20  git remote add https://github.com/A-nil23/kumar.git
+   21  git push -u origin master
+   22  git branch
+   23  git branch master
+   24  git status
+   25  git add gopi
+   26  git branch
+   27  git push -u origin master
+   28  git pull
+   29  git branch
+   30  ll
+   31  gitadd gopi
+   32  git add gopi
+   33  git push -u origin master
+   34  git status
+   35  git commit -m "hello"
+   36  git push -u origin master
+   37  mv gopi anil
+   38  cat anil
+   39  chmod 777 anil
+   40  ls
+   41  git add anil
+   42  git status
+   43  git init
+   44  git commit -m "hai"
+   45  git clone https://github.com/A-nil23/anil.git
+   46  git push -u origin master
+   47  git remote add https://github.com/A-nil23/kumar.git
+   48  git push -u origin master
+   49  cat /etc/os-release
+   50  aptinstall git -y
+   51  apt install git -y
+   52  sudo apt install git -y
+   53  yum install git -y
+   54  git --version
+   55  git init
+   56  git clone https://github.com/A-nil23/kumar.git
+   57  git remote add https://github.com/A-nil23/kumar.git
+   58  ls -l
+   59  cd kumar
+   60  ls
+   61  ls -a
+   62  ll
+   63  ls -l
+   64  cat nn
+   65  cd ..
+   66  cd anil
+   67  rm -f*
+   68  rm -f f*
+   69  ls
+   70  rm -rf anil
+   71  rm -rf kumar
+   72  rm -rf gopi
+   73  ls =l
+   74  ls -l
+   75  sudo -i
+   76  docker ps
+   77  cd ..
+   78  docker ps
+   79  cd ../..
+   80  docker ps
+   81  docker ps -a
+   82  docker rnun -it --name cont1 amazonlinux
+   83  docker ps
+   84  docker ps -a
+   85  docker pull ubuntu
+   86  docker run -it --name cont1 ubuntu
+   87  systemctl stop docker
+   88  docker ps -a
+   89  docker kill raham
+   90  docker system df
+   91  history
+
+
