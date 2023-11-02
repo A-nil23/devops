@@ -1,0 +1,35 @@
+
+single stage pioeline:
+====================
+
+pipeline {
+    agent any
+    
+    stages {
+        stage('one') {
+            steps {
+                sh 'touch file1'
+            }
+        }
+    }
+}    
+multi stage pipeline:
+====================
+
+pipeline {
+    agent any
+    
+    stages {
+        stage('abc') {
+            steps { 
+                sh 'lscpu'
+            }
+        }   
+        stage('def') {
+            steps {
+                sh 'touch file2'
+            }
+        }
+    }
+}    
+    becda5aa8b32444084e6a98998b0abef
