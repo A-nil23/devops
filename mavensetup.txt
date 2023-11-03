@@ -1,0 +1,38 @@
+ sudo yum update
+    2  yum install git java-1.8.0-openjdk maven tree -y
+    3  git clone https://github.com/RAHAMSHAIK007/jenkins-java-project-1.git
+    4  cd jenkins-java-project-1
+    5  ll
+    6  ll targets/
+    7  ll target/
+    8  ll target
+    9  cd netflix
+   10  netflix
+   11  mvn compile
+   12  cd 1
+   13  cd ..
+   14  cd jenkins-java-project
+   15  ll target/
+   16  mvn test
+   17  git clone https://github.com/devopsbyraham/jenkins-java-project.git
+   18  cd jenkins-java-project
+   19  ll
+   20  ll target/
+   21  ll -a
+   22  cd Jenkinsfile
+   23  cat Jenkinsfile
+   24  mvn compile
+   25  ll target/
+   26  cat classes
+   27  ll
+   28  cat src
+   29  cat pom.xml
+   30  mvn test
+   31  mvn install
+   32  mvn artifact
+   33  mvn clean package
+   34  mvn clean
+   35  ll
+   36  ll target/
+   37  git pull
+   38  clear
