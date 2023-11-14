@@ -1,0 +1,27 @@
+                                    {ansible-setup} 
+
+ Master node-->                                                     node-->
+  hostnamectl set-hostname ansible                          hostnamectl set-hostname nodename                                    
+      hostname--> ansible                                   hostname--> node                                             
+      passwd root                                              passwd root
+      vim /etc/ssh/sshd_config                             vim /etc/ssh/sshd_config
+  (38.permitRootlogin yes 62.passwordAuthentication       (38.permitRootlogin yes 62.passwordAuthentication yes)
+       systemctl restart sshd                              systemctl restart sshd
+       systemctl status sshd                                systemctl status sshd
+       hostname -i                                           hostname -i
+       amazon-linux-extras install java-openjdk11 -y
+       yum install python python-pip python-dlevel -y         id@172.31.17.45
+       vim /etc/ansible/hosts
+       amazon-linux-extras install java-openjdk11 -y
+       amazon-linux-extras install ansible2 -y
+       yum install python python-pip python-level -y
+       hostname -i
+     systemctl status sshd
+     vim /etc/ansible/hosts
+     ssh-copy-id@54.147.151.68
+     ssh-keygen
+     ll -al
+     ll .ssh
+     ssh-copy-id@172.31.17.45
+     ssh-copy-id root@172.31.17.45
+     ssh 172.31.17.45
